@@ -29,7 +29,7 @@ app.use(express.json());
 app.use(cookieParser());
 app.use(
     cors({
-        origin:"https://edtech-codegen-rn6bnzww8-kamna-jains-projects.vercel.app",
+        origin:"https://edtech-codegen-rn6bnzww8-kamna-jains-projects.vercel.app/",
         credentials: true,
     })
 );
