@@ -1,4 +1,4 @@
-### You can visit [StudyNotion](https://edtech-codegen-p5hfkhzmx-kamna-jains-projects.vercel.app/dashboard/my-profile)
+# You can visit [StudyNotion](https://edtech-codegen-p5hfkhzmx-kamna-jains-projects.vercel.app/dashboard/my-profile)
 test email: kamnajain18@gmail.com
 test password: 123
 
