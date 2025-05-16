@@ -1,3 +1,7 @@
+### You can visit [StudyNotion](https://edtech-codegen-p5hfkhzmx-kamna-jains-projects.vercel.app/dashboard/my-profile)
+test email: kamnajain18@gmail.com
+test password: 123
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
