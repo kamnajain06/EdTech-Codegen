@@ -1,74 +1,74 @@
-# You can visit [StudyNotion](https://edtech-codegen-p5hfkhzmx-kamna-jains-projects.vercel.app/dashboard/my-profile)
-test email: kamnajain18@gmail.com
-test password: 123
+# StudyNotion - Ed-Tech Platform
 
-# Getting Started with Create React App
+## Short Description
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+StudyNotion is a full-stack educational technology (Ed-Tech) platform designed to facilitate online learning. It serves as a Learning Management System (LMS) where users can sign up as students or instructors. Instructors can create and manage courses, while students can browse and enroll in them.
 
-## Available Scripts
+## Key Features
 
-In the project directory, you can run:
+- **User Authentication**: Secure user registration and login system with email verification and password reset functionality.
+- **Course Management**: Instructors can create, edit, and publish courses with detailed descriptions, sections, and subsections.
+- **Payment Integration**: Seamless payment processing for course enrollment using Razorpay.
+- **Student Dashboard**: A personalized dashboard for students to view their enrolled courses and track their progress.
+- **Instructor Dashboard**: A dashboard for instructors to manage their courses, view performance metrics, and interact with students.
+- **Cloud-Based Media Management**: Utilizes Cloudinary for efficient and scalable video and image hosting.
 
-### `npm start`
+## Tech Stack
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **Frontend**: React, Redux, Tailwind CSS
+- **Backend**: Node.js, Express.js
+- **Database**: MongoDB
+- **Authentication**: JSON Web Tokens (JWT)
+- **File Storage**: Cloudinary
+- **Payment Gateway**: Razorpay
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## How to Run It Locally
 
-### `npm test`
+To run the application locally, follow these steps:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1. **Clone the repository:**
 
-### `npm run build`
+   ```bash
+   git clone https://github.com/kamnajain06/EdTech-Codegen.git
+   cd EdTech-Codegen
+   ```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+2. **Install frontend dependencies:**
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+   ```bash
+   npm install
+   ```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+3. **Install backend dependencies:**
 
-### `npm run eject`
+   ```bash
+   cd server
+   npm install
+   ```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+4. **Set up environment variables:**
+   Create a `.env` file in the `server` directory and add the necessary environment variables (e.g., database connection string, JWT secret, Cloudinary and Razorpay API keys).
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+5. **Start the backend server:**
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+   ```bash
+   npm start
+   ```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+6. **Start the frontend development server:**
+   In the root directory, run:
+   ```bash
+   npm start
+   ```
 
-## Learn More
+The application should now be running on `https://edtech-codegen-p5hfkhzmx-kamna-jains-projects.vercel.app/`.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Live Demo
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+You can view a live demo of the application [here](https://edtech-codegen-p5hfkhzmx-kamna-jains-projects.vercel.app/).
 
-### Code Splitting
+## Screenshots
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+![Screenshot 1](screenshots/screenshot1.png)
+![Screenshot 2](screenshots/screenshot2.png)
+![Screenshot 3](screenshots/screenshot3.png)
